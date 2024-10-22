@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Calm Mind</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar Styles */
+        nav {
+            background-color: #2a9d8f;
+            padding: 15px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f4f7f6;
+        }
+
+        /* Container and Section Styling */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .about-section {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-section h2 {
+            font-size: 36px;
+            color: #2a9d8f;
+            margin-bottom: 15px;
+        }
+
+        .about-section p {
+            margin-bottom: 30px;
+        }
+
+        .key-points {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+            text-align: left;
+        }
+
+        .key-point {
+            background-color: #f0faf6;
+            padding: 20px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .key-point h3 {
+            font-size: 24px;
+            color: #2a9d8f;
+            margin-bottom: 10px;
+        }
+
+        .key-point p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        @media(max-width: 768px) {
+            .key-points {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .key-point {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="therapist.html">Therapists</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="about-section">
+            <h1>About Us</h1>
+            <h2>Calm Mind: Your Mental Health Companion</h2>
+            <p>At Calm Mind, we believe that mental health care should be accessible, affordable, and safe for everyone. Our mission is to remove the barriers that prevent individuals from receiving the psychological help they need, whether it's geographical distance, financial constraints, or the stigma around mental health.</p>
+            <p>Our platform connects users with qualified, compassionate therapists who offer personalized care to suit each individual's needs. Whether you're struggling with depression, anxiety, or any mental health concern, Calm Mind is here to help you regain control and find the support you deserve.</p>
+        </div>
+
+        <div class="key-points">
+            <div class="key-point">
+                <h3>Geographical Access</h3>
+                <p>We eliminate the need for in-person therapy by allowing users to connect with therapists from anywhere in the world.</p>
+            </div>
+
+            <div class="key-point">
+                <h3>Affordability</h3>
+                <p>Calm Mind offers affordable therapy solutions, making mental health care accessible to everyone, regardless of financial background.</p>
+            </div>
+
+            <div class="key-point">
+                <h3>Anonymity & Comfort</h3>
+                <p>Users can choose to stay anonymous and seek help in a judgment-free zone via text, call, or video sessions, depending on their comfort level.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
